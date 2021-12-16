@@ -1,0 +1,86 @@
+  body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+
+  .margin {margin-bottom: 45px;}
+
+  .bg-1 { 
+    background-image: url("header.jpeg"); 
+    background-size: cover;
+    background-position: center;
+    color: white;
+  }
+  .bg-2 { 
+    background-color: #474e5d; /* Dark Blue */
+    color: #000000;
+  }
+  .bg-3 { 
+    background-color: #ffffff; /* White */
+    color: #555555;
+  }
+  .bg-4 { 
+    background-color: #2f2f2f; /* Black Gray */
+    color: rgb(0, 0, 0);
+  }
+  .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+    background-color: #2f2f2f;
+  }
+  .navbar-brand {
+    color: white !important;
+  }
+  .navbar-nav li a{
+    color: white !important;
+  }
+  .navbar-nav li a:hover {
+    color: #1abc9c !important;
+    transition: 0.4s
+  }
+.item img {
+  width: 70%;
+  margin: auto;
+}
+.carousel-inner {
+  width: 70%
+  margin: auto;
+}
+/* Style all font awesome icons */
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  padding: 10px;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  padding: 10px;
+}
+.fa-instagram {
+  background: skyblue;
+  color: white;
+  padding: 10px;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.9;
+}
+
+#myCarousel {
+  margin-right: 200px;
+  margin-left: 200px;
+}
